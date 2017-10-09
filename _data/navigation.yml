@@ -1,0 +1,17 @@
+pages:
+  - title: Profile
+    url: /profile/
+
+  - title: Tools
+    url: /tools/
+
+  - title: Teaching
+    url: /teaching/
+
+  - title: Research
+    url: /research/
+
+  - title: Consulting
+    url: /consulting/
+
+

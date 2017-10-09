@@ -1,0 +1,201 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "materialize";
+
+$text-color-dark: #444;
+
+/* general layouting */
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+/* nav bar */
+.brand-logo {
+  font-weight: 900;
+}
+nav ul a, nav .brand-logo, nav a .material-icons, footer a {
+  color: $text-color-dark !important;
+}
+
+/* main background */
+main {
+  color: rgba(255,255,255,.9);
+  background-attachment: fixed;
+  background-image: url("bg.svg");
+  background-position: center center;
+  background-repeat: repeat;
+  overflow: hidden;
+
+}
+
+
+/* welcome section */
+
+.welcome {
+  h1 {
+	font-weight: 600;
+	font-size: 3.5rem;
+  }
+  h4 {
+	font-size: 1.5rem;
+	font-weight: 600;
+  }
+
+  p {
+	font-size: 1.5rem;
+  }
+  a {
+	color: white;
+	display: inline-block;
+	i.fa-border {
+	  border: solid .03em #eee;
+	}
+
+  }
+
+  a:hover {
+	background-color: rgba(255, 255, 255, 0.15);
+  }
+
+  .name-section {
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+  }
+  .topic-section {
+	padding-top: 0;
+	padding-bottom: 6rem;
+  }
+
+
+}
+
+.topics-description {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* description section */
+
+.description {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  h3 {
+	margin-top: 0;
+  }
+  p {
+	font-size: 1.5rem;
+  }
+  img {
+	width: 6rem;
+  } 
+  .description-text {
+	padding-right: 3rem;
+  }
+}
+.bio {
+  margin-top: 2rem;
+  overflow: auto;
+  .bio-img {
+	width: 25%;
+  }
+  .bio-text {
+	width: 75%;
+	padding-left: 2rem;
+	h4 {
+	  margin-top: 0;
+	  font-size: 1.5rem;
+	  font-weight: 600;
+
+	}
+
+  }
+
+  .contact-text {
+	margin-left: 0.5rem;
+  }
+}
+
+/* footer */
+footer {
+  height: 8rem;
+}
+
+/* content pages */
+.content {
+  color: $text-color-dark; 
+  margin-bottom: 2rem;
+}
+
+.row.heading {
+  position: relative;
+  margin-bottom: 0;
+}
+
+
+@media (min-width: 601px) {
+  .heading-subtext {
+	position: absolute;
+	right: 0.75rem;
+	bottom: 0;
+  }
+}
+@media (max-width: 600px) {
+  p.heading-subtext {
+	margin-top: 0;
+  }
+  .content {
+	padding-left: 1rem;
+	padding-right: 1rem;
+
+  }
+  .section {
+	padding-top: 0.1rem;
+  }
+  .container {
+	width: 97% !important;
+  }
+}
+
+
+@media (min-width: 601px) {
+  .content {
+	padding-left: 2rem;
+	padding-right: 2rem;
+  }
+}
+
+.card .card-action a {
+  color: #fff !important;
+}
+
+.btn.help-btn {
+  height: auto !important;
+}
+@media (min-width: 992px) {
+  .row.flex-row {
+	display: flex;
+  }
+}
+
+.content h4 {
+  margin-top: 0;
+}
+
+.content ul {
+  font-size: 1.5rem;
+}
+
+.research-area-box {
+  padding-top: 1rem;
+}
+
+.research-area-divider {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

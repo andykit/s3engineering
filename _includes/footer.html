@@ -1,0 +1,17 @@
+<footer class="page-footer blue-grey lighten-5">
+  <div class="container center">
+	<p class="blue-grey-text text-lighten-3"><a href="{{ site.baseurl }}{% link impressum.html %}">Impressum</a></p>
+  </div>
+</footer>
+<!--Import jQuery before materialize.js-->
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <script type="text/javascript" src="{{ "/assets/jquery-3.2.1.min.js" | relative_url }}"></script>
+<!-- Compiled and minified JavaScript -->
+  <script type="text/javascript" src="{{ "/assets/materialize.min.js" | relative_url }}"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.button-collapse').sideNav();
+	$('.modal').modal();
+	});
+</script>

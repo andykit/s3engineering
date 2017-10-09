@@ -1,0 +1,22 @@
+<header class="navbar-fixed">
+  <nav class="white">
+	<div class="nav-wrapper container">
+	  <a href="{{ "/" | relative_url }}" class="brand-logo">[s3e]</a>
+
+	  <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+	  
+	  <ul class="right hide-on-med-and-down">
+	  {% for item in site.data.navigation.pages %}
+	  <li class="{% if item.url == page.url %}active{% endif %}">
+	  <a href="{{ site.baseurl }}{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
+	  </li>
+	  {% endfor %}
+	  </ul>
+	</div>
+  </nav>
+</header>
+<ul class="side-nav" id="mobile-menu">
+  {% for page in site.data.navigation.pages %}
+  <li><a href="{{ site.baseurl }}{{ page.url }}" alt="{{ page.title }}">{{ page.title }}</a></li>
+  {% endfor %}
+</ul>
