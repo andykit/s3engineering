@@ -1,4 +1,20 @@
 ---
 layout: default
 ---
-{{ content }}
+<main class="teal lighten-2">
+<div class="container">
+  <div class="heading row">
+	<div class="col s12 m6 l6">
+	  <h2 class="">{{ page.title }}</h2>
+	</div>
+	<div class="col s12 m6 l6">
+	  <p class="heading-subtext">{{ page.subtext }}</p>
+	</div>
+  </div>
+  <div class="content white z-depth-1">
+	<div class="section">
+	  {{ content }}
+	</div>
+  </div>
+</div>
+</main>
