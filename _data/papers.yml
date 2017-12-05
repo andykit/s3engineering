@@ -1,0 +1,31 @@
+- general:
+  category_title: General
+  papers:
+    - title: The Karlskrona Manifesto for Sustainability Design
+      authors: Christoph Becker et al.
+      url: https://arxiv.org/abs/1410.6968
+    - title: Sustainable Software Systems Engineering
+      authors: Stefanie Betz, Timm Caporale
+      url: http://ieeexplore.ieee.org/abstract/document/7034850
+    - title: A comparison of value sensitive design and sustainability design
+      authors: Stefanie Betz, Andreas Fritsch
+      url: https://dl.gi.de/handle/20.500.12116/1130
+- requirements_engineering:
+  category_title: Requirements Engineering
+  papers:
+    - title: Requirements - The key to sustainability
+      authors: Christoph Becker et al.
+      url: http://ieeexplore.ieee.org/document/7325195/
+- bpm:
+  category_title: Business Process Management
+  papers:
+    - title: Sustainability aware Process Management using XML-Nets
+      authors: Stefanie Betz
+      url: http://enviroinfo.eu/sites/default/files/pdfs/vol8514/0691.pdf
+- lca:
+  category_title: (Social) Life Cycle Assessment
+  papers:
+    - title: Modeling and Analysis of Sustainabilty in Product Life Cycles
+      authors: Andreas Fritsch
+      url: http://ceur-ws.org/Vol-1826/paper13.pdf
+

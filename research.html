@@ -6,25 +6,21 @@ subtext: Published Results and Work-in-Progress.
 
 <h3>Research Projects</h3>
 <ul class="collection">
-  <li class="collection-item">AVARE</li>
+  <a class="collection-item" href="http://privacy-avare.de/" target="_blank">AVARE</a>
 </ul>
 <div class="divider"></div>
 <h3>Published Work</h3>
+{% for category in site.data.papers %}
 <ul class="collection with-header">
-  <li class="collection-header">General</li>
-  <a class="collection-item">The karlskrona manifesto for sustainability design</a>
-  <a class="collection-item">Sustainable software systems engineering</a>
-  <a class="collection-item">A comparison of value sensitive design and sustainability design (Stefanie Betz, Andreas Fritsch)</a>
+  <li class="collection-header">{{ category.category_title }}</li>
+  {% for paper in category.papers %}
+  <a class="collection-item" href="{{ paper.url }}" target="_blank">{{ paper.title }} ({{ paper.authors }})</a>
+  {% endfor %}
 </ul>
-<ul class="collection with-header">
-  <li class="collection-header">Requirements Engineering</li>
-  <a class="collection-item">Requirements: The key to sustainability</a>
+{% endfor %}
+<div class="divider"></div>
+<h3>Work in Progress</h3>
+<ul class="collection">
+  <a class="collection-item" href="{{ "/assets/files/ict4s2016-paper.csv" | absolute_url }}" target="_blank">Categorization of ICT4S 2016 papers</a>
 </ul>
-<ul class="collection with-header">
-  <li class="collection-header">Business Process Management</li>
-  <a class="collection-item">Sustainability aware Process Management using XML-Nets</a>
-</ul>
-<ul class="collection with-header">
-  <li class="collection-header">Social Life Cycle Assessment</li>
-  <a class="collection-item">Modeling and Analysis of Sustainability in Product Life Cycles (Andreas Fritsch)</a>
-</ul>
+

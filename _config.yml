@@ -44,3 +44,7 @@ plugins:
 
 # Permalink Style
 permalink: pretty
+
+# Collections
+collections:
+  - papers

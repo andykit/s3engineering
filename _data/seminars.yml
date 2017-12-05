@@ -1,0 +1,21 @@
+- summer2017:
+  seminar_title: Sustainability Management (Summer 2017)
+  papers:
+     - title: The Concept of Sustainability 
+       author: Marius Kempf
+       url: /assets/seminar_summer2017/01_the_concept_of_sustainability.pdf
+     - title: ICT and Sustainability
+     - title: Sustainable ICT Systems Development Process
+     - title: Behavor Change and Gamification of Sustainability
+     - title: "Simulation for Sustainability: Using System Dynamics in Transport Planning"
+     - title: "Simulation für Nachhaltigkeit: Petri Netze"
+     - title: Simulation for Sustainability Assessment
+     - title: Approaches and Tools for Life Cycle Assessment
+     - title: Approaches and Tools for Social Life Cycle Assessment
+     - title: Data Quality and Availability for S-LCA
+       author: Rodrigo Herrera
+       url: /assets/seminar_summer2017/12_data_quality_and_availability_for_slca.pdf
+     - title: Exemplary LCA-study of an ICT Product
+       author: Henning Kröger
+       url: /assets/seminar_summer2017/14_exemplary_lca_study_cc.pdf
+

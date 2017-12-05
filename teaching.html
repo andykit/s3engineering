@@ -3,7 +3,21 @@ layout: page
 title: Teaching
 subtext: (Don't just) listen and learn.
 ---
-<h3>Summer 2017</h3>
-<p>Seminar "Nachhaltigkeitsmanagement mit Informationssystemen"</p>
-<div class="divider"></div>
-<h3>Lecture coming soon ...</h3>
+<h3>Seminars</h3>
+{% for seminar in site.data.seminars %}
+<ul class="collection with-header">
+  <li class="collection-header">{{ seminar.seminar_title }}</li>
+  {% for paper in seminar.papers %}
+	{% if paper.author %}
+	<a class="collection-item" href="{{ paper.url }}" target="_blank">{{ paper.title }} ({{ paper.author }})</a>
+	{% else %}
+	<li class="collection-item">{{ paper.title }}</li>
+	{% endif %}
+  {% endfor %}
+</ul>
+{% endfor %}
+
+<ul class="collection with-header">
+  <li class="collection-header">Sustainability Management (Winter 2017/18)</li>
+  <li class="collection-item">(upcoming)</li>
+</ul>
