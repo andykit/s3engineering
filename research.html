@@ -4,11 +4,6 @@ title: Research
 subtext: Published Results and Work-in-Progress.
 ---
 
-<h3>Research Projects</h3>
-<ul class="collection">
-  <a class="collection-item" href="http://privacy-avare.de/" target="_blank">AVARE</a>
-</ul>
-<div class="divider"></div>
 <h3>Published Work</h3>
 {% for category in site.data.papers %}
 <ul class="collection with-header">
@@ -18,9 +13,17 @@ subtext: Published Results and Work-in-Progress.
   {% endfor %}
 </ul>
 {% endfor %}
+
+<div class="divider"></div>
+<h3>Research Projects</h3>
+<ul class="collection">
+  <a class="collection-item" href="http://privacy-avare.de/" target="_blank">AVARE</a>
+</ul>
+
 <div class="divider"></div>
 <h3>Work in Progress</h3>
 <ul class="collection">
   <a class="collection-item" href="{{ "/assets/files/ict4s2016-paper.csv" | absolute_url }}" target="_blank">Categorization of ICT4S 2016 papers</a>
 </ul>
+
 

@@ -4,14 +4,18 @@
   </div>
 </footer>
 <!--Import jQuery before materialize.js-->
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  <script type="text/javascript" src="{{ "/assets/jquery-3.2.1.min.js" | relative_url }}"></script>
+  <!-- <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}"> -->
+  <!-- <script type="text/javascript" src="{{ "/assets/jquery-3.2.1.min.js" | relative_url }}"></script> -->
 <!-- Compiled and minified JavaScript -->
-  <script type="text/javascript" src="{{ "/assets/materialize.min.js" | relative_url }}"></script>
+  <!-- <script type="text/javascript" src="{{ "/assets/materialize.min.js" | relative_url }}"></script> -->
 
+  <!-- <script src="{{ "assets/jquery-3.2.1.min.js" | absolute_url }}"></script> -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 <script type="text/javascript">
-$(document).ready(function() {
-	$('.button-collapse').sideNav();
-	$('.modal').modal();
-	});
+// $(document).ready(function() {
+	// $('.button-collapse').sideNav();
+	// $('.modal').modal();
+	// });
+  M.AutoInit();
 </script>

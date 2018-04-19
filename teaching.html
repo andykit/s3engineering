@@ -3,24 +3,33 @@ layout: page
 title: Teaching
 subtext: (Don't just) listen and learn.
 ---
-<h3>Seminars</h3>
-{% for seminar in site.data.seminars %}
+<h3>Seminars@KIT</h3>
 <ul class="collapsible">
-  <li>
-  <div class="collapsible-header">{{ seminar.seminar_title }}</div>
-  <div class="collpsible-body">
-  {% for paper in seminar.papers %}
-	{% if paper.author %}
-	<a href="{{ paper.url }}" target="_blank">{{ paper.title }} ({{ paper.author }})</a> <br />
-	{% else %}
-	{{ paper.title }} <br />
-	{% endif %}
-  {% endfor %}
-  </div>
-</ul>
-{% endfor %}
 
-<ul class="collection with-header">
-  <li class="collection-header">Sustainability Management (Winter 2017/18)</li>
-  <li class="collection-item">(upcoming)</li>
+  {% for seminar in site.data.seminars %}
+  <li>
+    <div class="collapsible-header">{{ seminar.seminar_title }}</div>
+    <div class="collapsible-body">
+      <ul class="collection"> 
+        {% for paper in seminar.papers %} 
+        {% if paper.author %}
+        <a class="collection-item" href="{{ paper.url }}" target="_blank">{{ paper.title }} ({{ paper.author }})</a>
+        {% else %}
+        <li class="collection-item">
+        {{ paper.title }}
+        </li>
+         {% endif %}
+
+        {% endfor %}
+      </ul>
+    </div>
+  </li>
+  {% endfor %}
 </ul>
+
+<div class="divider"></div>
+
+<h3>Lectures@HFU</h3>
+<p>
+  (upcoming)
+</p>

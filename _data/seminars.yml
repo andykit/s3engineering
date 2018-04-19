@@ -1,5 +1,5 @@
 - summer2017:
-  seminar_title: Sustainability Management (Summer 2017)
+  seminar_title: Sustainability Management Seminar (Summer 2017)
   papers:
      - title: The Concept of Sustainability 
        author: Marius Kempf
@@ -18,4 +18,8 @@
      - title: Exemplary LCA-study of an ICT Product
        author: Henning Kröger
        url: /assets/seminar_summer2017/14_exemplary_lca_study_cc.pdf
+- winter201718:
+  seminar_title: Sustainability Management Seminar (Winter 2017/18)
+  papers:
+    - title: (upcoming)  
 

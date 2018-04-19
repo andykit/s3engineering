@@ -2,7 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "materialize";
+// @import "materialize";
 
 $text-color-dark: #444;
 
@@ -174,8 +174,12 @@ footer {
   color: #fff !important;
 }
 
+div.col.karlskrona {
+  padding: 3em;
+}
 .btn.help-btn {
   height: auto !important;
+  margin-top: 1em;
 }
 @media (min-width: 992px) {
   .row.flex-row {
@@ -199,3 +203,4 @@ footer {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
