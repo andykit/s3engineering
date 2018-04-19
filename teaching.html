@@ -5,15 +5,18 @@ subtext: (Don't just) listen and learn.
 ---
 <h3>Seminars</h3>
 {% for seminar in site.data.seminars %}
-<ul class="collection with-header">
-  <li class="collection-header">{{ seminar.seminar_title }}</li>
+<ul class="collapsible">
+  <li>
+  <div class="collapsible-header">{{ seminar.seminar_title }}</div>
+  <div class="collpsible-body">
   {% for paper in seminar.papers %}
 	{% if paper.author %}
-	<a class="collection-item" href="{{ paper.url }}" target="_blank">{{ paper.title }} ({{ paper.author }})</a>
+	<a href="{{ paper.url }}" target="_blank">{{ paper.title }} ({{ paper.author }})</a> <br />
 	{% else %}
-	<li class="collection-item">{{ paper.title }}</li>
+	{{ paper.title }} <br />
 	{% endif %}
   {% endfor %}
+  </div>
 </ul>
 {% endfor %}
 
