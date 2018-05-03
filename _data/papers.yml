@@ -10,25 +10,70 @@
     - title: A comparison of value sensitive design and sustainability design
       authors: Stefanie Betz, Andreas Fritsch
       url: https://dl.gi.de/handle/20.500.12116/1130
+    - title: Evidencing sustainability design through examples
+      authors: Ruzanna Chitchyan et al.
+      url: http://eprints.hud.ac.uk/id/eprint/25699/1/Session2Paper3.pdf
+    - title: Mind the gap - bridging the sustainable software systems research divide
+      authors: Colin C Venters et al.
+      url: http://eprints.hud.ac.uk/id/eprint/24945/1/mind-gap-bridging.pdf 
+    - title: Software Sustainability - Research and Practice from a Software Architecture Viewpoint
+      authors: Colin C Venters et al.
+      url: https://www.researchgate.net/profile/Christoph_Becker8/publication/321940604_Software_Sustainability_Research_and_Practice_from_a_Software_Architecture_Viewpoint/links/5a5bd7ab458515450278a3c8/Software-Sustainability-Research-and-Practice-from-a-Software-Architecture-Viewpoint.pdf
+    - title: Sustainability Practices in Companies
+      authors: Felicitas Loepp, Stefanie Betz
+    - title: Blueprint and Evaluation Instruments for a Course on Software Engineering for Sustainability
+      authors: Birgit Penzenstadler et al.
+      url: https://arxiv.org/pdf/1802.02517 
+    - title: Software Engineering for Sustainability - Find the Leverage Points!
+      authors: Birgit Penzenstadler et al.
+      url: http://eprints.hud.ac.uk/id/eprint/32676/1/r2_LeveragePoints%20%283%29.pdf 
 - requirements_engineering:
   category_title: Requirements Engineering
+  category_id: RE
   papers:
     - title: Requirements - The key to sustainability
       authors: Christoph Becker et al.
       url: http://ieeexplore.ieee.org/document/7325195/
+    - title: Sustainability design in requirements engineering - state of practice
+      authors: Ruzanna Chitchyan et al.
+      url: https://dl.acm.org/citation.cfm?id=2889217
+    - title: Sustainability design in requirements engineering - Theory and practice
+      authors: Ruzanna Chitchyan et al. 
+    - title: Characterising sustainability requirements - A new species red herring or just an odd fish?
+      authors: Colin C Venters et al.
+      url: http://eprints.hud.ac.uk/id/eprint/31367/1/PID4651527.pdf
+    - title: Safety vs. sustainability design - Analogies, differences and potential synergies
+      authors: Guillermo Rodriguez-Navas et al.
+      url: http://eprints.hud.ac.uk/25700/1/Session2Paper1.pdf 
+- dept:
+  category_title: Sustainability Dept
+  category_id: DEPT 
+  papers:
+    - title: Sustainability Dept - A metaphor to support sustainability design decisions
+      authors: Stefanie Betz et al.
 - bpm:
   category_title: Business Process Management
+  category_id: BPM 
   papers:
     - title: Sustainability aware Process Management using XML-Nets
       authors: Stefanie Betz
       url: http://enviroinfo.eu/sites/default/files/pdfs/vol8514/0691.pdf
+    - title: Sustainability aware process management using xmlnets
+      authors: Stefanie Betz
+      url: https://pdfs.semanticscholar.org/b240/792f4864884cec17e01712246885557a10b0.pdf 
+    - title: How to incorporate sustainability into business process management lifecycle?
+      authors: Andréa M Magdaleno, Leticia Duboc, Stefanie Betz
+      url: https://www.researchgate.net/profile/Andrea_Magdaleno/publication/308317830_Integrating_Sustainability_Aspects_in_Business_Process_Management/links/5a0b829c0f7e9b0cc025641b/Integrating-Sustainability-Aspects-in-Business-Process-Management.pdf
+    - title: Integrating Sustainability Aspects in Business Process Management
+      authors: Selim Larsch et al.
 - lca:
   category_title: (Social) Life Cycle Assessment
+  category_id: LCA
   papers:
     - title: TracyML - A Modeling Language for Social Impacts of Product Life Cycles
       authors: Stefanie Betz, Andreas Fritsch, Andreas Oberweis
       url: http://ceur-ws.org/Vol-1979/paper-03.pdf
-    - title: Modeling and Analysis of Sustainabilty in Product Life Cycles
+    - title: Modeling and Analysis of Sustainability in Product Life Cycles
       authors: Andreas Fritsch
       url: http://ceur-ws.org/Vol-1826/paper13.pdf
 

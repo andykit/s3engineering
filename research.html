@@ -6,8 +6,9 @@ subtext: Published Results and Work-in-Progress.
 
 <h3>Published Work</h3>
 {% for category in site.data.papers %}
-<ul class="collection with-header">
-  <li class="collection-header">{{ category.category_title }}</li>
+<span class="anchor" id="{{category.category_id}}"></span>
+<ul class="collection with-header" >
+  <li class="collection-header" >{{ category.category_title }}</li>
   {% for paper in category.papers %}
   <a class="collection-item" href="{{ paper.url }}" target="_blank">{{ paper.title }} ({{ paper.authors }})</a>
   {% endfor %}
